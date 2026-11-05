@@ -1,0 +1,55 @@
+================================================================================
+LAB 6: CODE AND BRANCH COVERAGE ANALYSIS — SUBMISSION DETAILS
+================================================================================
+
+Student Information:
+--------------------
+Student Name: R Vinay
+SRN:          PES1UG24CS353
+Section:      F-Sec
+Sl. No.:      44
+Assignment:   Scholarship Awards (scholarship_awards.py)
+
+GitHub Repository:
+------------------
+Forked Repo URL: https://github.com/vinayr-07/L6_L7_44_scholarship_awards
+Original Base:   https://github.com/SETAPESU26/L6_L7_44_scholarship_awards
+
+Git Commits on Fork (main branch):
+----------------------------------
+1. Commit Hash: 50dddc2
+   Message:     Add code coverage test cases and terminal analysis screenshot (100% line coverage)
+
+2. Commit Hash: 3163d47
+   Message:     Add branch coverage test cases and terminal analysis screenshot (100% branch coverage)
+
+Files Included in this Submission:
+----------------------------------
+1. CodeCoverageTest_scholarship_awards.py
+   - Comprehensive test cases achieving 100% statement/line coverage (37/37 statements).
+
+2. BranchCoverageTest_scholarship_awards.py
+   - Comprehensive test cases achieving 100% branch coverage (26/26 branches evaluated to both True and False).
+
+3. code_coverage_report.png
+   - Terminal output screenshot verifying 100% line coverage report.
+
+4. branch_coverage_report.png
+   - Terminal output screenshot verifying 100% branch coverage report.
+
+5. scholarship_awards.py
+   - The application module under test.
+
+6. test_scholarship_awards.py
+   - Synchronized test script for standard pytest execution.
+
+Execution Commands:
+-------------------
+Line Coverage:
+   coverage run -m pytest CodeCoverageTest_scholarship_awards.py
+   coverage report -m
+
+Branch Coverage:
+   coverage run --branch -m pytest BranchCoverageTest_scholarship_awards.py
+   coverage report -m
+================================================================================
